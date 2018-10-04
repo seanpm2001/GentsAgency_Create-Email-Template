@@ -1,0 +1,33 @@
+body {
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	margin: 0;
+	padding: 0;
+	width: 100% !important;
+}
+
+#outlook a {
+	padding: 0;
+}
+
+.ReadMsgBody {
+	width: 100%;
+}
+
+.ExternalClass {
+	width: 100%;
+}
+
+.backgroundTable {
+	margin: 0 auto;
+	padding: 0;
+	width: 100% !important;
+}
+
+table td {
+	border-collapse: collapse;
+}
+
+.ExternalClass * {
+	line-height: 115%;
+}
