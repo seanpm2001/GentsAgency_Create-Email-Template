@@ -56,8 +56,7 @@ const run = (cmd) => new Promise((resolve, reject) => {
 
 	Object.assign(pkg.scripts, {
 		'lint:css': 'stylelint --fix gulp/css/**/*.css; exit 0;',
-		'lint:javascript': 'eslint --fix gulp/js/**/*.js; exit 0;',
-		lint: 'npm run lint:css & npm run lint:javascript',
+		lint: 'npm run lint:css',
 		serve: 'http-server ./build -c-1 -o',
 	});
 
